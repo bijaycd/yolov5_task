@@ -1,8 +1,8 @@
-path: /content/drive/MyDrive/dataset/image    # dataset root dir
-train: images/train  # train images (relative to 'path')
-val: images/val  # val images (relative to 'path')
+train: /content/drive/MyDrive/dataset/train/images
+val: /content/drive/MyDrive/dataset/val/images
 
-# Classes
-names:
-  0: Fingureprint
+train_labels: /content/drive/MyDrive/dataset/train/labels
+val_labels: /content/drive/MyDrive/dataset/val/labels
 
+nc: 0
+names: ['fingerprint']
