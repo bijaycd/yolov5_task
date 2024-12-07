@@ -6,9 +6,9 @@ a. Clone the Repository
 
 bash
 Copy code
-git clone https://github.com/bijaycd/yolov5_task.git
-cd yolov5_task
-b. Install Dependencies
+- git clone https://github.com/bijaycd/yolov5_task.git
+- cd yolov5_task
+- b. Install Dependencies
 
 Ensure you have Python 3.8 or higher installed. It's recommended to use a virtual environment.
 
