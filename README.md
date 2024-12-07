@@ -14,10 +14,11 @@ Ensure you have Python 3.8 or higher installed. It's recommended to use a virtua
 
 bash
 Copy code
-python -m venv yolov5_env
-source yolov5_env/bin/activate  # On Windows: yolov5_env\Scripts\activate
-pip install --upgrade pip
-pip install -r requirements.txt
+- python -m venv yolov5_env
+- source yolov5_env/bin/activate  # On Windows: yolov5_env\Scripts\activate
+- pip install --upgrade pip
+- pip install -r requirements.txt
+
 Note: If requirements.txt is not provided, manually install necessary packages such as torch, opencv-python, and PyYAML.
 
 2. Data Preparation
@@ -27,15 +28,15 @@ Place your images and corresponding annotation files in the dataset directory. T
 
 markdown
 Copy code
-dataset/
-├── images/
-│   ├── img1.jpg
-│   ├── img2.jpg
-│   └── ...
-└── labels/
-    ├── img1.txt
-    ├── img2.txt
-    └── ...
+- dataset/
+- ├── images/
+- │   ├── img1.jpg
+- │   ├── img2.jpg
+- │   └── ...
+- └── labels/
+-     ├── img1.txt
+-     ├── img2.txt
+-    └── ...
 b. Annotation Format
 
 Ensure annotations are in YOLO format, where each .txt file contains:
